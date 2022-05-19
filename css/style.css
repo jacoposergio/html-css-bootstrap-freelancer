@@ -12,6 +12,13 @@ ul {
     padding: 0;
 }
 
+img{
+    width: 100%;
+}
+
+
+ /* \\\\\\\\\\\\\\\\\\\   HEADER  \\\\\\\\\\\\\   */
+
 header {
     height: 60px;
     background-color: lightblue;
@@ -29,4 +36,21 @@ header nav {
 }
 .ms_main_menu a {
     text-decoration: none;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\ MAIN \\\\\\\\\\\\\\\\\\\ */
+
+/* JUMBOTRON  */
+
+.jumbotron-img{
+   
+    margin: 0 auto;
+}
+
+.jumbotron-text{
+    text-align: center;
+}
+
+.jumbotron-text h2{
+    font-size: 0.7rem;
 }
