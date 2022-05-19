@@ -16,6 +16,16 @@ img{
     width: 100%;
 }
 
+.ms_small_container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.ms_smaller_container{
+    width: 60%;
+    margin: 0 auto;
+}
+
 
  /* \\\\\\\\\\\\\\\\\\\   HEADER  \\\\\\\\\\\\\   */
 
@@ -43,8 +53,7 @@ header nav {
 /* JUMBOTRON  */
 
 .jumbotron-img{
-   
-    margin: 0 auto;
+     margin: 0 auto;
 }
 
 .jumbotron-text{
@@ -54,3 +63,23 @@ header nav {
 .jumbotron-text h2{
     font-size: 0.7rem;
 }
+
+/* PORTFOLIO   */
+
+
+.portfolio-text{
+    text-align: center;
+}
+
+/* ABOUT   */
+
+.about-text{
+    text-align: center;
+}
+
+.download-btn{
+    text-align: center;
+}
+
+/* CONTACT ME  */
+
