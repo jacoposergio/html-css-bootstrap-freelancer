@@ -2,3 +2,31 @@
 .col-12 .col-md-6, .col-lg-4{
     border: 1px solid red;
 }
+
+
+/* COMMON */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 60px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    text-align: right;
+}
+
+.ms_main_menu li {
+    display: inline-block;
+    font-size: 15px;
+}
+.ms_main_menu a {
+    text-decoration: none;
+}
