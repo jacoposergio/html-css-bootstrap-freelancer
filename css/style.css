@@ -49,8 +49,13 @@ section.bg-green{
     margin-bottom: 1.2rem;
 }
 
+.section-header h1{
+    font-size: 2rem;
+    margin-top: 0.3rem;
+}
+
 .section-header h2{
-    font-size: 1.2;
+    font-size: 1.2rem;
 }
 
  /* \\\\\\\\\\\\\\\\\\\   HEADER  \\\\\\\\\\\\\   */
@@ -94,6 +99,7 @@ header nav {
 /* JUMBOTRON  */
 
 .ms_jumbotron-img{
+    max-width: 40%;
      margin: 0 auto;
 }
 
