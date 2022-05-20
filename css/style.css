@@ -37,8 +37,59 @@ img{
 .flex-container{
     display: flex;
     align-items: center;
-    
 }
+
+.white-star, .black-star{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.white-star:before {
+    content: "";
+    width: 100px;
+    height: 3px;
+    background: white;
+    left: 120px;
+    top: 50%;
+    position: absolute;
+  }
+  
+  .white-star:after {
+    content: "";
+    width: 100px;
+    height: 3px;
+    background: white;
+    right: 120px;
+    top: 50%;
+    position: absolute;
+  }
+
+  .black-star:before {
+    content: "";
+    width: 100px;
+    height: 3px;
+    background: black;
+    left: 120px;
+    top: 50%;
+    position: absolute;
+  }
+  
+  .black-star:after {
+    content: "";
+    width: 100px;
+    height: 3px;
+    background: black;
+    right: 120px;
+    top: 50%;
+    position: absolute;
+  }
+
+
+  
+
+
+
 
 /* Utilities  */
 
