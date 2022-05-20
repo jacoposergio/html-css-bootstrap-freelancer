@@ -18,22 +18,55 @@ img{
 
 .ms_small_container {
     width: 70%;
+    max-width: 1170px;
     margin: 0 auto;
 }
 
 .ms_smaller_container{
     width: 60%;
+    max-width: 1170px;
     margin: 0 auto;
 }
 
+.flex-container{
+    display: flex;
+    align-items: center;
+    
+}
+
+/* Utilities  */
+
+section{
+    padding: 3rem 0;
+}
+
+section.bg-green{
+    background-color: #1abc9c;
+    color: white;
+}
+
+.section-header{
+    margin-bottom: 1.2rem;
+}
+
+.section-header h2{
+    font-size: 1.2;
+}
 
  /* \\\\\\\\\\\\\\\\\\\   HEADER  \\\\\\\\\\\\\   */
 
 header {
     height: 60px;
-    background-color: lightblue;
+    background-color:#2c3e50;
     display: flex;
     align-items: center;
+    color: white;
+    
+}
+
+ .start-bootstrap h2{
+    font-size: 1.1rem;
+    font-weight: 600;
 }
 
 header nav {
@@ -42,40 +75,34 @@ header nav {
 
 .ms_main_menu li {
     display: inline-block;
-    font-size: 15px;
-}
+ }
+
 .ms_main_menu a {
     text-decoration: none;
+    color: inherit;
+    font-size: 0.9rem;
+    line-height: 100%;
+   
+
 }
 
 /* \\\\\\\\\\\\\\\\\\\\\\\ MAIN \\\\\\\\\\\\\\\\\\\ */
 
 /* JUMBOTRON  */
 
-.jumbotron-img{
+.ms_jumbotron-img{
      margin: 0 auto;
-}
-
-.jumbotron-text{
-    text-align: center;
-}
-
-.jumbotron-text h2{
-    font-size: 0.7rem;
 }
 
 /* PORTFOLIO   */
 
-
-.portfolio-text{
-    text-align: center;
+.portfolio-card{
+    background-color: blue;
 }
 
 /* ABOUT   */
 
-.about-text{
-    text-align: center;
-}
+
 
 .download-btn{
     text-align: center;
@@ -89,8 +116,21 @@ header nav {
 
 /* ////////////////// FOOTER //////////////// */
 
+footer{
+    color: white;
+}
+
+
+.footer-links{
+    padding: 3rem 0;
+    background-color: grey;
+}
+
+
+.copyright{
+    background-color: blueviolet;
+}
 
 .copyright h4{
-    text-align: center;
     font-size: 1rem;
 }
